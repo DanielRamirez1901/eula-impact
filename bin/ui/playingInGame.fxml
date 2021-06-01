@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#movePlayerPrincipal" prefHeight="576.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="204.0" fitWidth="149.0" layoutY="195.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/agua.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="195.0" fitWidth="149.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/agua.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="195.0" fitWidth="149.0" layoutY="389.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/agua.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="195.0" fitWidth="149.0" layoutX="321.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/agua.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="195.0" fitWidth="149.0" layoutX="321.0" layoutY="191.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/agua.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="195.0" fitWidth="149.0" layoutX="321.0" layoutY="386.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/agua.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="182.0" fitWidth="172.0" layoutX="149.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/camino.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="182.0" fitWidth="172.0" layoutX="149.0" layoutY="182.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/camino.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="182.0" fitWidth="172.0" layoutX="149.0" layoutY="364.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/camino.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="182.0" fitWidth="172.0" layoutX="149.0" layoutY="546.0" pickOnBounds="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/camino.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageBossDvalin" fitHeight="81.0" fitWidth="124.0" layoutX="186.0" layoutY="339.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Monsters/Dvalin.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="113.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageToMove" fitHeight="81.0" fitWidth="99.0" layoutX="193.0" layoutY="469.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Pj/eula.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageBossAndrius" fitHeight="81.0" fitWidth="115.0" layoutX="180.0" layoutY="195.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/Monsters/Andrius.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imageCelestialDoor" fitHeight="157.0" fitWidth="172.0" layoutX="149.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../images/bakcgrounds/door.jpg" />
+         </image>
+      </ImageView>
+      <Button layoutX="38.0" layoutY="509.0" mnemonicParsing="false" onAction="#closeTheGame" text="Exit" />
+      <Rectangle fx:id="shRectangleToMove" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="81.0" layoutX="193.0" layoutY="469.0" opacity="0.0" stroke="BLACK" strokeType="INSIDE" width="84.0" />
+      <Label layoutX="-38.0" layoutY="287.0" prefHeight="20.0" prefWidth="206.0" text="Move to the right if you fall">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="327.0" layoutY="287.0" prefHeight="20.0" prefWidth="206.0" text="Move left if you fall ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
